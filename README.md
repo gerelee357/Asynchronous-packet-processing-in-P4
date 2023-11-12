@@ -54,7 +54,5 @@ sudo sh -c 'echo 64 > /sys/devices/system/node/node0/hugepages/hugepages-2048kB/
 
 
 
-## How to Use
 
-[Provide instructions on how others can use or contribute to your project]
 
