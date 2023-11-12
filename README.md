@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this repository, I introduce an optimization possibility in P4 by incorporating asynchronous packet processing, enabling the invocation and execution of external functions during packet processing in the data plane. This innovation aims to enhance data plane packet processing performance and improve link utilization.
+In this repository, I introduce an optimization possibility in P4 by incorporating asynchronous packet processing, enabling the invocation and execution of external functions during packet processing in the data plane. This solution aims to enhance data plane packet processing performance and improve link utilization.
 
 ## Implementation
 
