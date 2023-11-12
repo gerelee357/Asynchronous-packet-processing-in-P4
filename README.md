@@ -25,7 +25,7 @@ This work has been presented at the 13th Joint Conference on Mathematics and Com
 ## How to Run
 
 
-1. Installing T4P4S
+1. Installing T4P4S (https://github.com/P4ELTE/t4p4s)
 
 Clone the T4P4S repository from GitHub and install the specified version using the following command:
 
@@ -50,7 +50,7 @@ sudo sh -c 'echo 64 > /sys/devices/system/node/node0/hugepages/hugepages-2048kB/
 
 3. Create a new directory at the following location: `/usr/local/share/dpdk/examples/`.
 4. Copy the files `test_compressdev.c` and `Makefile` into this new folder.
-5. Run the code.
+5. Execute the test_compressdev.c file following the instructions outlined in the README within the t4p4s directory.
 
 
 
