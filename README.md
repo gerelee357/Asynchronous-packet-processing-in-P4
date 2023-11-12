@@ -1,4 +1,4 @@
-# Asynchronous Packet Processing Optimization in P4
+# Asynchronous Packet Processing in P4
 
 ## Introduction
 
