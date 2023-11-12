@@ -22,6 +22,38 @@ In addition to the basic asynchronous compression function, I proposed and imple
 
 This work has been presented at the 13th Joint Conference on Mathematics and Computer Science (MaCS 2020), organized by ELTE. The publication is currently under process [here](link-to-your-publication).
 
+## How to Run
+
+
+1. Installing T4P4S
+
+Clone the T4P4S repository from GitHub and install the specified version using the following command:
+
+  ```bash
+  git clone https://github.com/P4ELTE/t4p4s.git
+  cd t4p4s
+  git checkout 716df8b
+  ```
+
+After cloning the repository and checking out the specific version, you can proceed with the installation according to the provided instructions in README.
+
+2. Before executing the application, run the following commands in the shell:
+
+```bash
+export RTE_SDK=/usr/local/share/dpdk/
+export RTE_TARGET=x86_64-native-linuxapp-gcc
+
+sudo sh -c 'echo 64 > /sys/devices/system/node/node0/hugepages/hugepages-2048kB/nr_hugepages'
+```
+
+
+
+3. Create a new directory at the following location: `/usr/local/share/dpdk/examples/`.
+4. Copy the files `test_compressdev.c` and `Makefile` into this new folder.
+5. Run the code.
+
+
+
 ## How to Use
 
 [Provide instructions on how others can use or contribute to your project]
