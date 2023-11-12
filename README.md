@@ -8,7 +8,7 @@ In this repository, I introduce an optimization possibility in P4 by incorporati
 
 I demonstrated this method in practice by integrating an external DPDK (Data Plane Development Kit) compression function. The implementation was carried out on ELTE's DPDK-based virtual switch with the P4 pipeline. The developed solution provides a general approach in P4 that is adaptable to various external functions.
 
-## Optimization Techniques
+## Other optimization techniques on extern compression
 
 In addition to the basic asynchronous compression function, I proposed and implemented further optimization methods, including:
 
